@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominos</title>
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title-container">
+            <img id="h-logo" src="./log.png" alt="Logo">
+            <h2><i class="fa-solid fa-location-arrow"></i>
+                <select name="" id="">
+                    <option value="kochi">Kottayam</option>
+                </select>
+            </h2>
+        </div>
+        <nav>
+            <ul>
+                <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+                <li><i class="fa-solid fa-house"></i> Home</li>
+                <li><i class="fa-solid fa-book-open"></i> Menu</li>
+                <li><i class="fa-solid fa-circle-info"></i> About</li>
+                <li><i class="fa-solid fa-phone"></i> Contact</li>
+                <li><i class="fa-solid fa-cart-shopping"></i> Cart</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="banner">
+        <div class="slideshow">
+            <div class="slide"><img src="https://tse2.mm.bing.net/th/id/OIP.rybB4K9T0s4KOQ7KX6O1VgHaEe?rs=1&pid=ImgDetMain" alt=""></div>
+            <div class="slide"><img src="https://wallpapercave.com/wp/wp6905756.jpg" alt=""></div>
+            <div class="slide"><img src="https://cdn.forbes.co/2021/04/dominos_pizza_cyber_monday.jpg" alt=""></div>
+        </div>
+        <div class="quote">
+            <p>There is no love sincerer than the love of food</p>
+        </div>
+    </div>
+    <h1>Featured</h1>
+    <div class="row">
+        <div class="col">
+            <img src="./bu.jpg" alt="">
+            <h2>Burger Pizza Classic Veg</h2>
+            <p>₹199</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./ro.png" alt="">
+            <h2>Roasted Chicken Wings Peri Peri</h2>
+            <p>₹179</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./tik.jpg" alt="">
+            <h2>Tikka Masala Pasta Veg</h2>
+            <p>₹200</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./veg.jpg" alt="">
+            <h2>Veg Loaded</h2>
+            <p>₹399</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./bone.png" alt="">
+            <h2>Boneless Chicken Wings Peri Peri</h2>
+            <p>₹100</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./hand.jpg" alt="">
+            <h2>New Hand Tossed</h2>
+            <p>₹120</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+    </div>
+    <h1 id="menu">- Today's Menu -</h1>
+    <div class="menu-row">
+
+
+        <span class="starters">
+            <h3>Starters</h3>
+            <span class="non-veg">
+                <h4>Non-Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="https://www.dominos.co.in/files/items/Roasted-chicken-192x192.png" alt="">
+                    <h5>Roasted chicken wings Peri-Peri</h5>
+                    <p>₹109</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="https://www.dominos.co.in/files/items/Boneless-Chicken-wings-192x192.png" alt="">
+                    <h5>Boneless Chicken wings Peri-Peri</h5>
+                    <p>₹139</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+            </span>
+            
+    </div>
+    </div>
+    <div class="menu-row">
+
+        <span class="main-course">
+            <h3>Main Course</h3>
+            <span class="non-veg">
+                <h4>Non-Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="https://www.dominos.co.in/files/items/MicrosoftTeams-image_(11).png" alt="">
+                    <h5>Chicken Dominator</h5>
+                    <p>₹499</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="https://www.dominos.co.in/files/items/MicrosoftTeams-image_(18).png" alt="">
+                    <h5>Idi Chicken Tikka</h5>
+                    <p>₹160</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+
+            </span>
+            <span class="veg">
+                <h4>Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="https://www.dominos.co.in/files/items/Peppy_Paneer.jpg" alt="">
+                    <h5>Peppy_Paneer</h5>
+                    <p>₹150</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="https://www.dominos.co.in/files/items/Farmhouse.jpg" alt="">
+                    <h5>Farm House</h5>
+                    <p>₹150</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+            </span>
+        </span>
+    </div>
+   
+    <div class="menu-row">
+        <span class="beverages">
+            <h3>Beverages</h3>
+            <span class="cold">
+                <h4>Cold <i class="fa-regular fa-snowflake"></i></h4>
+                <div class="menu-col">
+                    <img src="7up.png" alt="">
+    
+                    <h5>7UP</h5>
+                    <p>₹50</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="pepsi.png" alt="">
+                    <h5>PEPSI</h5>
+                    <p>₹60</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+
+            </span>
+        </span>
+    </div>
+    <footer id="footer">
+        <div class="about">
+            <h3>About</h3>
+            <p>
+                Jubilant FoodWorks Limited (the Company) is a Jubilant Bhartia Group Company. The Company was incorporated in 1995 and initiated operations in 1996. The Company got listed on the Indian bourses in February 2010. Mr. Shyam S. Bhartia, Mr. Hari S. Bhartia and Jubilant Consumer Pvt. Ltd. (formerly Jubilant Fresh Pvt. Ltd.) are the Promoters of the Company. The Company & its subsidiary operates Domino's Pizza brand with the exclusive rights for India, Nepal, Bangladesh and Sri Lanka. The Company is market leader in the pizza segment with a network of 1,249 Domino’s Pizza restaurants across 276 cities in India (as on June 30, 2019).The Company is the market leader in the organized pizza market in the pizza home delivery segment in India, The Company has strengthened its portfolio by entering into an agreement with Dunkin' Donuts Franchising LLC, for developing the Dunkin' Donuts brand and operating restaurants in India,Over the period since 1996, Domino's Pizza India has remained focused on delivering great tasting Pizzas and sides, superior quality, exceptional guest care and value for money offerings. We have endeavored to establish a reputation for being a home delivery specialist capable of delivering pizzas within 30 minutes or else FREE to a community of loyal consumers from all our restaurants around the country.Domino's vision is focused on " Exceptional people on a mission to be the best pizza delivery company in the world!" We are committed to bringing fun, happiness and convenience to lives of our consumers by delivering delicious pizzas to their doorstep and our efforts are aimed at fulfilling this commitment towards a large and ever-growing guest base.Domino's constantly strives to develop products that suit the tastes of our consumers and hence delighting them. Domino's believes strongly in the strategy of 'Think global and act local'. Thus, time and again we have been innovating with delicious new products such as crusts, toppings and flavours suitable to the taste buds of Indian Consumers. Further providing value for money and affordable products to our consumers has been an important part of our efforts. Our initiatives such as Fun Meal and Pizza Mania have been extremely popular with consumers looking for an affordable and value for money meal option.Domino's believes that when a box of pizza is opened, family and friends come together to share the pizza. Hence, our brand positioning: ‘Yeh Hai Rishton Ka Time'That's why, all our efforts, whether it is a new innovative and delicious product, offering consumers value for money deals, great service, countrywide presence or the promise to deliver in 30 minutes or free are all directed towards making relationships stronger, warmer and more fun by giving consumers an opportunity to get together, catch up, reunite and spend more time together.Consumers can order their pizzas by calling the single Happiness Hotline number 1800 208 1234 OR order online at Pizza Online.
+            </p>
+            <hr>
+            <div class="restaurant-images">
+                <h3>Restaurant</h3><br>
+                <img src="https://shopsinsg.com/wp-content/uploads/2020/05/dominos-pizza-singapore.jpg"
+                    alt="Restaurant Image">
+                <img src="https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg"
+                    alt="Restaurant Image">
+            </div>
+            <hr style="margin-bottom: 5px;">
+            <div class="chef-images">
+                <h3>Chefs</h3><br>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.Yl_4_JbycCjq5EC9f26eigAAAA?rs=1&pid=ImgDetMain" alt="Chef Image">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.nPYqH-tHZlK-W4wTkW5T3gHaFX?w=4457&h=3231&rs=1&pid=ImgDetMain"
+                    alt="Chef Image">
+                <img src="https://static.ffx.io/images/$width_375%2C$height_211/t_crop_fill/q_86%2Cf_auto/ee5332415f86ae907a81da8c336ecc9c711b63d2"
+                    alt="Chef Image">
+            </div>
+            <hr>
+            <div class="social">
+                <h5>Social Links:</h5>
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <hr style="height: 1000px; margin-right:15px">
+        <div class="contact">
+            <h3>Contact</h3>
+            <form action="" method="post">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <hr style="margin-top: 5px; margin-bottom: 5px; ">
+            <div class="contact-info">
+                <h3>Address: </h3>
+                <p><b>Dominos</b>,</p>
+                <p>Plot No, 272, 11th Cross Rd, MIG Housing Colony,</p>
+                <p>kalathipady, Kottayam</p>
+                <p>kottayam, Kerala 65003</p>
+                <p>Phone: *91-9367893256</p>
+            </div>
+            <hr style="margin-top: 2px; margin-bottom: 5px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251781.6545110799!2d76.25718298671873!3d9.587652600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c150f3913859%3A0x79237f2ad98cdbef!2sDomino&#39;s%20Pizza!5e0!3m2!1sen!2sin!4v1723506255376!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
